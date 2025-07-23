@@ -17,7 +17,7 @@ The dataset is sampled to 8000 rows and 39 columns as Master Dataset for analysi
 
 1.**Customer Consumption Data Analysis**: Utilizing datasets related to examine how different factors affects customer consumption based on Recency, Frequency and Monetary (RFM) patterns in Olist Store.
 
-2.**Hypothesis Testing**:Validate assumptions about loyal and champion customers have high consumptions behaviour. 
+2.**Hypothesis Testing**: Validate assumptions about loyal and champion customers have high consumptions behaviour. 
 Correlation of between customer segments and trends of orders. Identify key popular product categories 
  
 3.**Major drivers identification**: Identify which attributes influence predictions the most.
@@ -32,27 +32,31 @@ Correlation of between customer segments and trends of orders. Identify key popu
 * Hypothesis 1: The increase in orders from 2017 to mid-2018 correlates with the rise in New Customers and Potential Loyalists.
 
 
+# 
+
 * Hypothesis 2: Bed/Bath/Table and Health/Beauty categories are popular among high-frequency customers (Champions and Loyal 
 Customers).
 
 
 
 * Hypothesis 3: At Risk and Need Attention segments contribute to the revenue decline observed after mid-2018.
+ 
+
 
 These will be examined and validate through statistical Python analyses and use of visualisations.
 
 
 ## Project Plan
--A Kaggle dataset is selected from public domain: the Brazilian E-Commerce Public Dataset by Olist. The dataset contains comprehensive records of Olist, an online retail store in Brazil.
+-  A Kaggle dataset is selected from public domain: the Brazilian E-Commerce Public Dataset by Olist. The dataset contains comprehensive records of Olist, an online retail store in Brazil.
 To ensure computational efficiency while maintaining analytical integrity, the dataset is cleaned and sampled down to 8,000 unique entries. This reduction aligns with the project scope and accurate data analytics performance requirements, ensuring manageable processing without significant loss of information.
--Setup a Kanban project board to record and track all tasks and milestones for the project.
--Develop hypotheses to be tested and validated.
--Carry out ETL and EDA on the dataset using Python in Jupyter Notebooks. To prepare the dataset for analysis and visualisation (including feature engineering, RFM analysis and clustering with the aid of generative AI)
--Create visualisations in Jupyter Notebook using Seaborn, Matplotlib and Plotly.
--Perform statistical testing in Jupyter Notebook.
--Develop insights and conclusions from analysis.
--Build dashboard in Tableau for data storytelling.
--Evaluate project from ideation phase to dashboard creation.
+- Setup a Kanban project board to record and track all tasks and milestones for the project.
+-  Develop hypotheses to be tested and validated.
+-  Carry out ETL and EDA on the dataset using Python in Jupyter Notebooks. To prepare the dataset for analysis and visualisation (including feature engineering, RFM analysis and clustering with the aid of generative AI)
+-  Create visualisations in Jupyter Notebook using Seaborn, Matplotlib and Plotly.
+-  Perform statistical testing in Jupyter Notebook.
+-  Develop insights and conclusions from analysis.
+-  Build dashboard in Tableau for data storytelling.
+-  Evaluate project from ideation phase to dashboard creation.
 
 A mixed-methods approach is deployed to explore Olist online store trends. A sample of 8000 records is analysed to balance performance with data integrity.
 
@@ -64,6 +68,7 @@ Business Requirement
 | Business Requirement             | Visualisation & Rationale                                    |
 | -------------------------------- | ------------------------------------------------------------ |
 | Identify the most active customer segemnts                       | **Bar Chart** 	A ranked bar chart clearly highlights 
+
 
 
 
