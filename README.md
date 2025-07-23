@@ -74,10 +74,9 @@ Business Requirement
 
 - **RFM Analysis and Segementation:** Grouped RFM scores and define customer segments based on customer_metrics includes recency, frequency and monetary.
 
-- **Clustering** Created custom mappings to categorise trials into broader condition groups.
+- **Clustering** To validate hypothesis (Silhouette and Elbow methods to determine the optimal number of clusters (k) in a dataset ).
 
-- **Cosine Similarity Analysis:** Measured closeness between condition terms.
+- **Statistical Testing (Customer and time metrics: Customer, Year, Sum, count and mean):** To validate hypotheses 
+(Extra visualisation to understand the customer behaviour by time  1. Boxplot for Payment Value Distribution for Customer Segment   2. Based on boxplot further verify accuracy of Hypothesis 4 to understand overall revenue percentage by period).
 
-- **Statistical Testing (e.g. Chi-Squared, Mann-Whitney U):** To validate hypotheses (e.g. enrolment vs completion).
-
-- **Data Visualisation (Tableau, Plotly, Matplotlib, Seaborn):** Translated trends into clear visuals aligned with business goals.
+- **Data Visualisation (Tableau, Plotly, Matplotlib, Seaborn):** Explore key trends into clear visuals aligned with business goals.
