@@ -2,9 +2,14 @@
 
 **Brazilian Olist Online Store Customer Consumption Behaviour Analysis** is an analysis that aim to explore customer information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. The data features allows viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers.
 
-# ![Banner Image](../images/Olist_online Store.jpg)
+# ![OList Online Store Banner](../images/Olist_online Store.jpg)
+
+## Table of Contents
+
 
 ## Dataset Content
+1. [Project Overview]
+
 The dataset was found on Kaggle
  https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=product_category_name_translation.csv
 
@@ -80,9 +85,10 @@ Business Requirements
 
 - **RFM Analysis and Segementation:** Grouped RFM scores and define customer segments based on customer_metrics includes recency, frequency and monetary.
 
-- **Clustering** To validate hypothesis (Silhouette and Elbow methods to determine the optimal number of clusters (k) in a dataset ).
+- **Clustering** To validate hypothesis (Silhouette and Elbow method to determine the optimal number of clusters (k) in a dataset ).
 
 - **Statistical Testing (Customer and time metrics: Customer, Year, Sum, count and mean):** To validate hypotheses 
 (Extra visualisation to understand the customer behaviour by time  1. Boxplot for Payment Value Distribution for Customer Segment   2. Based on boxplot further verify accuracy of Hypothesis 4 to understand overall revenue percentage by period).
 
 - **Data Visualisation (Tableau, Plotly, Matplotlib, Seaborn):** Explore key trends into clear visuals aligned with business goals.
+
