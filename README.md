@@ -13,7 +13,7 @@ The dataset contains 110180  rows and 39 columns. The dataset includes allows fo
 The dataset is sampled to 8000 rows and 39 columns as Master Dataset for analysis.
 
 ## Business Requirements
-* The business goal of this analysis is to provide information to Brazilian Olist Online on how they can response to change in  customer behaviour  between 2016-2018 to adjust future marketing strategies according to trends and maximise profits of the store.
+The business goal of this analysis is to provide information to Brazilian Olist Online on how they can response to change in  customer behaviour  between 2016-2018 to adjust future marketing strategies according to trends and maximise profits of the store.
 
 1.**Customer Consumption Data Analysis**: Utilizing datasets related to examine how different factors affects customer consumption based on Recency, Frequency and Monetary (RFM) patterns in Olist Store.
 
@@ -21,7 +21,7 @@ The dataset is sampled to 8000 rows and 39 columns as Master Dataset for analysi
 Correlation of between customer segments and trends of orders. Identify key popular product categories 
  
 3.**Major drivers identification**: Identify which attributes influence predictions the most.
-* 
+
 4.**Present Interactive Dashboard**: Create impactful visualisation to provide key insights into Brazilian e-commerce customers consumption behaviour
 
 
@@ -64,7 +64,7 @@ Python was used for data extraction, cleaning, exploratory analysis and statisti
 
 
 ## The rationale to map the business requirements to the Data Visualisations
-Business Requirement 
+Business Requirements
 | Business Requirement             | Visualisation & Rationale                                    |
 | -------------------------------- | ------------------------------------------------------------ |
 | Identify the most active customer segments                       | **Bar Chart** 	A ranked bar chart clearly highlights 
