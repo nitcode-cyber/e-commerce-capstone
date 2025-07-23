@@ -37,7 +37,7 @@ Correlation of between customer segments and trends of orders. Identify key popu
 * Hypothesis 1: The increase in orders from 2017 to mid-2018 correlates with the rise in New Customers and Potential Loyalists.
 
 
-# 
+## ![Banner Image] (images/Order Over Time.jpg)
 
 * Hypothesis 2: Bed/Bath/Table and Health/Beauty categories are popular among high-frequency customers (Champions and Loyal 
 Customers).
