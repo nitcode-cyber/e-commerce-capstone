@@ -67,7 +67,8 @@ Python was used for data extraction, cleaning, exploratory analysis and statisti
 Business Requirement 
 | Business Requirement             | Visualisation & Rationale                                    |
 | -------------------------------- | ------------------------------------------------------------ |
-| Identify the most active customer segemnts                       | **Bar Chart** 	A ranked bar chart clearly highlights 
+| Identify the most active customer segments                       | **Bar Chart** 	A ranked bar chart clearly highlights 
+| Identify 
 
 
 
