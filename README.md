@@ -2,7 +2,9 @@
 
 **Brazilian Olist Online Store Customer Consumption Behaviour Analysis** is an analysis that aim to explore customer information of 100k orders from 2016 to 2018 made at multiple marketplaces in Brazil. The data features allows viewing an order from multiple dimensions: from order status, price, payment and freight performance to customer location, product attributes and finally reviews written by customers.
 
-# ![OList Online Store Banner](../images/Olist_online Store.jpg)
+![Online Store Banner](images/olist_online_store.jpg)
+
+
 
 ## Table of Contents
 
@@ -13,7 +15,7 @@
 The dataset was found on Kaggle
  https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?select=product_category_name_translation.csv
 
-The dataset contains 110180  rows and 39 columns. The dataset includes allows for a wide range of data, including variables such as order status, freight value and customer location.
+The dataset contains 110180 rows and 39 columns. The dataset includes allows for a wide range of data, including variables such as order status, freight value and customer location.
 
 The dataset is sampled to 8000 rows and 39 columns as Master Dataset for analysis.
 
@@ -33,19 +35,13 @@ Correlation of between customer segments and trends of orders. Identify key popu
 
 ## Hypothesis and Validation?
 
+##H1
 
-* Hypothesis 1: The increase in orders from 2017 to mid-2018 correlates with the rise in New Customers and Potential Loyalists.
+* Hypothesis 1: At Risk and Need Attention segments does not  contribute to the revenue  after mid-2018.
 
-
-## ![Banner Image] (images/Order Over Time.jpg)
-
-* Hypothesis 2: Bed/Bath/Table and Health/Beauty categories are popular among high-frequency customers (Champions and Loyal 
-Customers).
-
-
-
-* Hypothesis 3: At Risk and Need Attention segments contribute to the revenue decline observed after mid-2018.
+* Hypothesis 2: Champions and Loyal Customers show significantly higher purchase frequency and preference for Bed/Bath/Table and Health/Beauty categories compared to other customer segments, indicating these categories drive customer loyalty and repeat purchases.
  
+
 
 
 These will be examined and validate through statistical Python analyses and use of visualisations.
@@ -72,9 +68,12 @@ Python was used for data extraction, cleaning, exploratory analysis and statisti
 Business Requirements
 | Business Requirement             | Visualisation & Rationale                                    |
 | -------------------------------- | ------------------------------------------------------------ |
-| Identify the most active customer segments                       | **Bar Chart** 	A ranked bar chart clearly highlights 
-| Identify 
-
+| Identify Orders Over Time                 | **Matplotlib Line Chart**                           |
+| Identify Revenue Over Time                | **Seaborn Line Chart**                              |
+| Identify Top 10 product category          | **Plotly Bar Chart**                                |
+| RFM Segementation and Analysis            | **Plotly Bar Charts**                               |
+| Clustering analysis                       | **sklearn.cluster**                                 |
+| Extra verification of payment value and customer segment analysis | **Plotly Boxplot**       |
 
 
 
@@ -91,4 +90,7 @@ Business Requirements
 (Extra visualisation to understand the customer behaviour by time  1. Boxplot for Payment Value Distribution for Customer Segment   2. Based on boxplot further verify accuracy of Hypothesis 4 to understand overall revenue percentage by period).
 
 - **Data Visualisation (Tableau, Plotly, Matplotlib, Seaborn):** Explore key trends into clear visuals aligned with business goals.
+
+
+
 
