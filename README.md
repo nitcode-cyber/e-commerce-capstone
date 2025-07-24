@@ -6,7 +6,13 @@
 
 
 
-## Table of Contents
+## File Structure
+
+![alt text](images/file_structure.png)
+
+The structure is based on business requirements
+
+
 
 
 ## Dataset Content
@@ -37,10 +43,15 @@ Correlation of between customer segments and trends of orders. Identify key popu
 
 ##H1
 
-* Hypothesis 1: At Risk and Need Attention segments does not  contribute to the revenue  after mid-2018.
+* Hypothesis 1: At Risk and Need Attention segments does not contribute to the revenue  after mid-2018.
+
+  Validation with Summary:![alt text](images/test_hypothesis1.png)
+
+
 
 * Hypothesis 2: Champions and Loyal Customers show significantly higher purchase frequency and preference for Bed/Bath/Table and Health/Beauty categories compared to other customer segments, indicating these categories drive customer loyalty and repeat purchases.
- 
+
+Validation with Summary: ![alt text](images/test__hypothesis2.png)
 
 
 
@@ -73,7 +84,19 @@ Business Requirements
 | Identify Top 10 product category          | **Plotly Bar Chart**                                |
 | RFM Segementation and Analysis            | **Plotly Bar Charts**                               |
 | Clustering analysis                       | **sklearn.cluster**                                 |
-| Extra verification of payment value and customer segment analysis | **Plotly Boxplot**       |
+| Hypothesis Testing                        |**Line, Pieand  Bar Charts**                         |
+
+Image Number 1 to 5 as the above table order:
+
+![alt text](images/orders_over_time.png)
+
+ ![alt text](images/revenue_over_time.png)
+
+ ![alt text](images/top10_product_categories.png)
+
+ ![alt text](images/RFM_distribution.png)
+
+ ![alt text](images/clustering_K=7.png)
 
 
 
@@ -86,11 +109,34 @@ Business Requirements
 
 - **Clustering** To validate hypothesis (Silhouette and Elbow method to determine the optimal number of clusters (k) in a dataset ).
 
-- **Statistical Testing (Customer and time metrics: Customer, Year, Sum, count and mean):** To validate hypotheses 
-(Extra visualisation to understand the customer behaviour by time  1. Boxplot for Payment Value Distribution for Customer Segment   2. Based on boxplot further verify accuracy of Hypothesis 4 to understand overall revenue percentage by period).
+- **Statistical Testing (T-Test, Customer and time metrics: Customer, Year, Sum, count and mean):** To validate hypotheses 
+- **Tableau Data Visalisation Dashboard:** To provide interactive insights
+-**Project planning, monitoring and evaluation: https://github.com/users/nitcode-cyber/projects/16
+##Limitations##
 
-- **Data Visualisation (Tableau, Plotly, Matplotlib, Seaborn):** Explore key trends into clear visuals aligned with business goals.
+1.The analysis relies on predefined customer segments, which may not fully capture dynamic customer behavior changes over time.
+2.Limited to available categories and data, potentially missing unlisted preferences or external factors influencing purchase patterns.
+
+Ethical considerations
+-** The data has been anonymised at the source and does not present any immediate concerns regarding data privacy.
+
+
+Dashboard Design
+Tablaeu 
+https://public.tableau.com/app/profile/ari.n4160/viz/Book2_17533674555920/Dashboard1?publish=yes
+
+An interactive dashboard was created  to provide clear and accessible insights of the customer behaviour
+
+Main Data Analysis Libraries
 
 
 
+Acknowledgements
 
+All the people supported me throughout teh project 
+
+
+References
+https://www.youtube.com/watch?v=g-h4Faao77M
+
+https://www.youtube.com/watch?v=p8arik6ZyyI
